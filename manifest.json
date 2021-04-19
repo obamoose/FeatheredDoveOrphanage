@@ -1,0 +1,22 @@
+{
+	"Name": "Feathered Dove Orphanage",
+	"Author": "Obamoose",
+	"Version": "0.0.1",
+	"Description": "Adds adoptable children",
+	"UniqueID": "Obamoose.FDO",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:????" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [
+	   {
+		"UniqueID": "Esca.CustomNPCExclusions",
+		"IsRequired": true,
+	   },
+	   {
+		"UniqueID": "spacechase0.CustomNPCFixes",
+		"IsRequired": true,
+	   },
+   ]
+}

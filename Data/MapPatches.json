@@ -1,0 +1,30 @@
+{
+"Changes": [
+	
+//----------------------
+// Adds door to Farm-house
+//----------------------
+
+		/*********
+		** Add Map Merges
+		*********/
+     	{
+        "LogName": "Adds the farmhouse door",            
+       "Action": "EditMap",
+       "Target": "Maps/FarmHouse2_marriage",
+       "FromFile": "Assets/Maps/FarmHouseDoor.tmx",
+       "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+       "ToArea": { "X": 1, "Y": 2, "Width": 1, "Height": 2 },
+       "PatchMode": "Replace",
+       "When": { "FarmhouseUpgrade": "1, 2, 3" }
+      },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "Assets/Maps/Orphanage.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 9 },
+         "ToArea": { "X": 16, "Y": 1, "Width": 12, "Height": 9 },
+         "PatchMode": "Overlay"
+      },        
+]
+}

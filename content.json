@@ -1,0 +1,35 @@
+{
+	"Format": "1.21.0",
+	
+	/*********
+	** Configuration
+	*********/
+	
+	/*********
+	** Define in-game locations
+	*********/
+    "CustomLocations": [
+      	{
+         	"Name": "Custom_FDO_AndrewRoom",
+         	"FromMapFile": "Assets/Maps/AndrewRoom.tmx",
+      	},     
+      	{
+         	"Name": "Custom_FDO_OrphanageLobby",
+         	"FromMapFile": "Assets/Maps/OrphanageLobby.tmx",
+      	},        	 	
+    ],
+
+	/*********
+	** Patches
+	*********/
+	"Changes": [
+
+	/*********
+	** Data Includes
+	*********/
+		{
+			"Action": "Include",
+			"FromFile": "Data/MapPatches.json, Data/NPCData.json"
+		},
+	],
+}
