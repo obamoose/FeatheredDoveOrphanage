@@ -12,7 +12,8 @@
 		"Entries": {
 
 			//Children
-			"Andrew": "child/polite/outgoing/positive/male/non-datable/null/Town///Custom_FDO_OrphanageLobby 15 18/Andrew",
+			"Jack": "child/polite/outgoing/positive/male/non-datable/null/Town///Custom_FDO_OrphanageLobby 15 18/Jack",
+			"Jill": "child/polite/outgoing/positive/female/non-datable/null/Town///Custom_FDO_OrphanageLobby 15 18/Jill",
 
 			//Baba the Hag
 			"Baba": "adult/polite/outgoing/positive/female/non-datable/null/Town///Custom_FDO_OrphanageLobby 51 7/Baba",
@@ -28,8 +29,8 @@
 		"Entries": {
 
 			//Children
-			"Andrew": "child/polite/outgoing/positive/male/non-datable/null/Town/winter 11//Custom_AFM_AndrewRoom 2 4/Andrew",
-		
+			"Jack": "child/polite/outgoing/positive/male/non-datable/null/Town/winter 11//Custom_AFM_AndrewRoom 2 4/Jack",
+			"Jill": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 11//Custom_AFM_AndrewRoom 2 4/Jill",		
 		},
 	},
 //------------------------
@@ -42,7 +43,8 @@
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
 		
-			"Andrew": "Love it!/236 278 86 20/Like it!/380 396 348 252/Don't like it!//Hate it!//I feel neutral!/-4/ ",
+			"Jack": "Love it!/236 278 86 20/Like it!/380 396 348 252/Don't like it!//Hate it!//I feel neutral!/-4/ ",
+			"Jill": "Love it!/236 278 86 20/Like it!/380 396 348 252/Don't like it!//Hate it!//I feel neutral!/-4/ ",			
 			"Baba": "Love it!/236 278 86 20/Like it!/380 396 348 252/Don't like it!//Hate it!//I feel neutral!/-4/ ",
 
 		},
@@ -56,14 +58,14 @@
 	{
 		"LogName": "Portraits",
 		"Action": "Load",
-		"Target": "Portraits/Andrew, Portraits/Baba",
+		"Target": "Portraits/Jack, Portraits/Jill, Portraits/Baba",
 		"FromFile": "Assets/Portraits/{{TargetWithoutPath}}.png"
 	},
 	
 	{
 		"LogName": "Beach Portraits",
 		"Action": "Load",
-		"Target": "Portraits/Andrew_Beach",
+		"Target": "Portraits/Jack_Beach, Portraits/Jill_Beach, Portraits/Baba_Beach",
 		"FromFile": "Assets/BeachPortraits/{{TargetWithoutPath}}.png"
 	},
 	
@@ -75,14 +77,14 @@
 	{
 		"LogName": "Sprites",
 		"Action": "Load",
-		"Target": "Characters/Andrew, Characters/Baba",
+		"Target": "Characters/Jack, Characters/Jill, Characters/Baba",
 		"FromFile": "Assets/{{Target}}.png"
 	},
 	
 	{
 		"LogName": "Beach Sprites",
 		"Action": "Load",
-		"Target": "Characters/Andrew_Beach",
+		"Target": "Characters/Jack_Beach, Characters/Jill_Beach, Characters/Baba_Beach",
 		"FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png"
 	},
 	
@@ -94,7 +96,7 @@
 	{
 		"LogName": "Dialogue",
 		"Action": "Load",
-		"Target": "Characters/Dialogue/Andrew, Characters/Dialogue/Baba",
+		"Target": "Characters/Dialogue/Jack, Characters/Dialogue/Jill, Characters/Dialogue/Baba",
 		"FromFile": "Assets/Dialogue/{{TargetWithoutPath}}.json",
 	},
 	
@@ -106,7 +108,7 @@
 	{
 		"LogName": "Schedules",
 		"Action": "Load",
-		"Target": "Characters/schedules/Andrew, Characters/schedules/Baba",
+		"Target": "Characters/Schedules/Jack, Characters/Schedules/Jill, Characters/Schedules/Baba",
 		"FromFile": "Assets/Schedules/{{TargetWithoutPath}}.json",
 	},
 

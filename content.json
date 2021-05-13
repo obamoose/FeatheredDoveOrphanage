@@ -16,7 +16,11 @@
       	{
          	"Name": "Custom_FDO_OrphanageLobby",
          	"FromMapFile": "Assets/Maps/OrphanageLobby.tmx",
-      	},        	 	
+      	},
+      	{
+         	"Name": "Custom_FDO_Orphanage",
+         	"FromMapFile": "Assets/Maps/Orphanage.tmx",
+      	},         		 	
     ],
 
 	/*********

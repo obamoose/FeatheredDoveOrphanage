@@ -5,7 +5,7 @@
 	"Description": "Adds adoptable children",
 	"UniqueID": "Obamoose.FDO",
 	"MinimumApiVersion": "3.0.0",
-	"UpdateKeys": [ "Nexus:????" ],
+	"UpdateKeys": [ "Nexus:7999" ],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"
 	},

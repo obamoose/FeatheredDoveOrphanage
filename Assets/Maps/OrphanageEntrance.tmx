@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="45">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="45">
  <properties>
   <property name="Light" value="24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 27 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4"/>
-  <property name="LocationContext" value="MAX"/>
   <property name="NightTiles" value="AlwaysFront 52 98 908 AlwaysFront 56 98 908 AlwaysFront 24 50 908 AlwaysFront 33 53 908 AlwaysFront 24 58 908 AlwaysFront 27 72 908 AlwaysFront 30 72 908 AlwaysFront 38 65 908 AlwaysFront 27 86 908 AlwaysFront 17 86 908 AlwaysFront 21 64 908 Buildings 92 79 190 Buildings 41 69 653 Buildings 71 67 726"/>
  </properties>
- <tileset firstgid="1" name="Orphanage" tilewidth="16" tileheight="16" tilecount="156" columns="12">
-  <image source="Orphanage.png" width="192" height="208"/>
- </tileset>
- <tileset firstgid="157" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+ <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
@@ -1332,106 +1328,52 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2132" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="1976" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
- <tileset firstgid="4436" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
- </tileset>
- <layer id="1" name="Back" width="12" height="12">
+ <layer id="1" name="Back" width="8" height="10">
   <data encoding="csv">
-675,674,674,674,674,674,674,674,674,674,674,675,
-700,699,699,699,699,699,699,699,699,699,699,700,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-537,537,537,537,537,150,151,0,537,537,537,537,
-537,537,537,537,537,537,537,537,537,537,537,537,
-537,537,537,537,537,537,537,537,537,537,537,537,
-537,537,537,537,537,537,537,537,537,537,537,537
+2147483999,351,1073742205,1073742205,1073742205,381,402,351,
+2147483999,351,1073742180,1073742180,1073742180,1073742180,353,351,
+2147483999,351,1073742176,1073742151,3221225799,1073742176,353,376,
+2147484024,351,1073742152,1073742100,1073742100,1073742150,353,152,
+2147483800,351,276,1610613064,328,276,353,176,
+176,351,276,3221225800,2684354888,276,353,176,
+176,351,328,276,276,326,353,176,
+1095,1095,352,327,2147483975,352,1095,1095,
+1095,1095,356,356,356,356,1095,1095,
+1120,1121,381,381,381,381,1096,1120
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>
- <layer id="2" name="Buildings" width="12" height="12">
+ <layer id="2" name="Buildings" width="8" height="10">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,126,127,0,0,0,0,0,
-133,134,135,136,137,138,139,140,141,142,143,144,
-145,146,147,148,149,0,0,152,153,154,155,156,
-543,2454,2459,2455,0,0,0,0,1237,1238,444,2147484191,
-2147484241,0,0,0,0,0,0,0,0,0,0,593,
-540,541,541,542,0,0,0,0,2147484190,2147484189,2147484189,2147484188
+0,345,0,0,0,0,342,0,
+2863,370,0,0,0,0,367,308,
+103,395,0,0,0,0,392,103,
+103,420,0,0,0,0,417,103,
+0,445,0,0,0,0,442,0,
+469,470,0,0,0,0,2147484118,468,
+393,495,0,0,0,0,492,491,
+418,520,0,0,0,0,517,516,
+443,545,0,0,0,0,542,541,
+0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="7" name="Buildings">
-  <object id="43" name="TileData" x="80" y="112" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 32 23 Custom_FDO_OrphanageLobby 600 2600"/>
-   </properties>
-  </object>
-  <object id="44" name="TileData" x="96" y="112" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 33 23 Custom_FDO_OrphanageLobby 600 2600"/>
-   </properties>
-  </object>
- </objectgroup>
- <layer id="3" name="Paths" width="12" height="12">
+ <objectgroup id="7" name="Buildings"/>
+ <layer id="4" name="Front" width="8" height="10">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,4444,0,0,0,0,0,0,4444,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="8" name="Paths"/>
- <layer id="4" name="Front" width="12" height="12">
-  <data encoding="csv">
-49,50,51,52,53,54,55,56,57,58,59,60,
-61,62,63,64,65,66,67,68,69,70,71,72,
-73,74,75,76,77,78,79,80,81,82,83,84,
-85,86,87,88,89,90,91,92,93,94,95,96,
-97,98,99,100,101,102,103,104,105,106,107,108,
-109,110,111,112,113,114,115,116,117,118,119,120,
-121,122,123,124,125,0,0,128,129,130,131,132,
-0,0,0,0,0,0,0,0,0,0,0,0,
-518,2422,2427,2423,0,0,0,0,0,0,419,2147484166,
-0,0,0,0,0,0,0,0,0,0,0,0,
-515,516,516,517,0,0,0,0,2147484165,2147484164,2147484164,2147484163,
-0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="9" name="Front"/>
- <layer id="5" name="AlwaysFront" width="12" height="12">
-  <data encoding="csv">
-1097,1098,1099,1100,1101,1102,2147484750,2147484749,2147484748,2147484747,2147484746,2147484745,
-1122,1123,1124,1125,1126,1127,2147484775,2147484774,2147484773,2147484772,2147484771,2147484770,
-1147,1148,75,76,1610613887,1610613887,1610613887,1610613887,2147483724,2147483723,2147484796,2147484795,
-1172,1173,87,88,89,90,2147483738,2147483737,2147483736,2147483735,2147484821,2147484820,
-1149,98,99,100,101,102,103,104,105,106,107,108,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="10" name="AlwaysFront"/>
 </map>

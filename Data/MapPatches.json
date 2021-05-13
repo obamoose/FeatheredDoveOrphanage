@@ -21,10 +21,40 @@
       {
          "Action": "EditMap",
          "Target": "Maps/Town",
-         "FromFile": "Assets/Maps/Orphanage.tmx",
-         "FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 9 },
-         "ToArea": { "X": 16, "Y": 1, "Width": 12, "Height": 9 },
-         "PatchMode": "Overlay"
-      },        
+         "FromFile": "Assets/Maps/OrphanageEntrance.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 8, "Height": 10 },
+         "ToArea": { "X": 16, "Y": 0, "Width": 8, "Height": 10 },
+         "PatchMode": "ReplaceByLayer"
+      },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+      "AddWarps": [
+            "18 -1 Custom_FDO_Orphanage 4 11",
+            "19 -1 Custom_FDO_Orphanage 5 11",
+            "20 -1 Custom_FDO_Orphanage 6 11",
+            "21 -1 Custom_FDO_Orphanage 7 11",                                    
+        ]
+    },      
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_FDO_Orphanage",
+      "AddWarps": [
+            "4 12 Town 18 0",
+            "5 12 Town 19 0",
+            "6 12 Town 20 0",
+            "7 12 Town 21 0",                                    
+        ]
+    },      
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_FDO_OrphanageLobby",
+      "AddWarps": [
+            "32 24 Custom_FDO_Orphanage 5 8",
+            "33 24 Custom_FDO_Orphanage 6 8",                               
+        ]
+    },   
+
 ]
 }
