@@ -35,5 +35,26 @@
 			"Action": "Include",
 			"FromFile": "Data/MapPatches.json, Data/NPCData.json"
 		},
+
+{
+		"LogName": "Adds Kitty Cats in Town",
+		"Action": "EditMap",
+       "Target": "Maps/FarmHouse2_marriage",
+		"MapTiles": [
+            {
+               "Position": {
+					"X": "{{Random: 26, 27, 28 |key=tile coordinate}}",
+					"Y": "{{Random: 18, 19, 20 |key=tile coordinate}}"
+            },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 Obamoose.KittyCatCC.{{Random: VanillaYellow, VanillaGrey, VanillaOrange, KittyWhite, KittyBlack, KittyTuxedo}}"
+               },
+            },
+         ],
+       "When": { "FarmhouseUpgrade": "1, 2, 3" },
+		"Update": "OnLocationChange"
+	},
+
 	],
 }
